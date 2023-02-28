@@ -1,9 +1,7 @@
 import React, { createContext, useState } from 'react';
 import Parent from './Components/Parent';
 import Child from './Components/Child';
-
 export const COUNTER_CONTEXT = createContext();
-
 
 const App = () => {
   const [count, setCount] = useState(0);
